@@ -1,0 +1,5 @@
+[package]
+name = "cayley-table-gen"
+version = "0.1.0"
+authors = ["Jake Moss <jake.moss@uqconnect.edu.au>"]
+edition = "2018"
