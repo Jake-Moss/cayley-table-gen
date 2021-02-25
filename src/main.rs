@@ -22,7 +22,7 @@ fn main() {
 
     io::stdin().read_line(&mut input).expect("error: unable to read user input");
 
-    let operaiton: u16 = if input.trim().is_empty() {
+    let operation: u16 = if !input.trim().is_empty() {
         if input.trim().parse::<u16>().unwrap() == 2 {
             2
         } else {
@@ -33,8 +33,7 @@ fn main() {
     };
 
 
-
-    println!("");
+    println!("{}", operation);
     let mut input = String::new();
 
     print!("Omissions (seperate by comma): ");
@@ -86,7 +85,7 @@ fn main() {
                 continue;
             }
 
-            if operaiton == 1 {
+            if operation == 1 {
                 print!(" & {}", i+j % n);
             } else {
                 print!(" & {}", i*j % n);
