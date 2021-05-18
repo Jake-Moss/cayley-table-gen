@@ -1,5 +1,5 @@
 #+TITLE: Readme
 
-This is a Cayley table generator build in rust that outputs in a LaTeX format. It can addition and multiplication, and omit select rows and cols
+This is a Cayley table generator built in rust that outputs in a LaTeX format. It can addition and multiplication, and omit select rows and cols
 
 Windows executable can be found in Releases under assets.

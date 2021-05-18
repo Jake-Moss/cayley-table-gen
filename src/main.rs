@@ -33,7 +33,6 @@ fn main() {
     };
 
 
-    println!("{}", operation);
     let mut input = String::new();
 
     print!("Omissions (seperate by comma): ");
